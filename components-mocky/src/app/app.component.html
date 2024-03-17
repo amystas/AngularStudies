@@ -1,0 +1,6 @@
+<app-header></app-header>
+<div>
+  <app-device-list (smartphoneSelected)="onSmartphoneSelected($event)"></app-device-list>
+  <app-device-details [smartphoneArray]="selectedSmartphones"></app-device-details>
+</div>
+<app-footer></app-footer>

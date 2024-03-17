@@ -1,0 +1,9 @@
+<div>
+    <ul>
+        <li
+        *ngFor="let smartphone of smartphoneList"
+        (click)="onSelect(smartphone)">
+            {{smartphone.model}}
+        </li>
+    </ul>
+</div>

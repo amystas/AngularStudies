@@ -1,0 +1,11 @@
+div {
+    background-color: teal;
+    height: 16vh;
+    width: 100vw;
+    transform: translateY(-1vh);
+}
+marquee {
+    color:antiquewhite;
+    font-size: 3rem;
+    padding-top: 5vh;
+}

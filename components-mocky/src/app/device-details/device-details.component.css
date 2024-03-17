@@ -1,0 +1,17 @@
+#container {
+    background-color: #D6EDFF;
+    width: 70vw;
+    height: 70vh;
+    padding-top: 15px;
+    overflow: scroll;
+}
+h3 {
+    margin-top: 0;
+}
+.item {
+    font-family: 'Trebuchet MS';
+    border: 3px teal solid;
+    border-radius: 12px;
+    padding: 5px;
+    margin: 0 15px 15px 15px;
+}

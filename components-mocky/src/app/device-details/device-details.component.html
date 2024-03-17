@@ -1,0 +1,10 @@
+<div id="container">
+    <div *ngFor="let smartphone of smartphoneArray">
+        <div class="item">
+            <h3>{{smartphone!.model}}</h3>
+            <p>Brand: {{smartphone!.brand}}</p>
+            <p>Production Year: {{smartphone!.productionYear}}</p>
+            <p>Price: ${{smartphone!.price}}</p>
+        </div>
+    </div>
+</div>
