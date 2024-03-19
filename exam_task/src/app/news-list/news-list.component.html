@@ -1,0 +1,7 @@
+<div>
+    <ul>
+        <li *ngFor="let news of newsList" (click)="onSelect(news)"> 
+            {{ news.headline }}
+        </li>
+    </ul>
+</div>
