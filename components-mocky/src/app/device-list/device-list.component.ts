@@ -19,7 +19,7 @@ export class DeviceListComponent {
       this.smartphoneList = data
     });
   }
-
+  Sos,Ciuchy i Borciuchy
   ngOnInit() {}
 
   @Output() smartphoneSelected = new EventEmitter<Smartphone[]>();
